@@ -1,0 +1,28 @@
+.nav-list {
+    list-style-type: none;
+    background-color: #464655;
+    padding: 0;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: left; /* Optional: Center the nav items horizontally */
+}
+
+
+.navbar-nav .nav-link {
+    color: rgba(205, 202, 202, 0.636) /* Set the color of the navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #6FFFE9; /* Set the color of the navbar links on hover */
+}
+
+.navbar-nav .nav-link:focus{
+    color: rgba(205, 202, 202, 0.636)
+}
+
+
+
+.nav ul {
+width: 100vw;
+
+}
+

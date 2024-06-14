@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #464655;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Navbar {
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tab{
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.root{
+  
+  background-color: #464655;
+  overflow-y: auto;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  flex-direction: column;
+  color: #090000;
+  flex-grow: 1;
+  width: 100vw;
+}
+.aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  
+}
+
+.aboutme-title{
+  color: white;
+  font-size: 30px;
+}
+
+.experience-title{
+  font-size: 30px;
+  color: white;
+}
+
+.projects-title{
+  font-size: 30px;
+  color: white;
+}
+
+.projects{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+
+.experience{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-grow: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.Name {
+  font-size: 40px;
+  
+  color: white
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.intro{
+  margin-top: 15%;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.descrip{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.shortDescrip {
+  font-size: 25px;
+  color: white
+}
+
+.littleaboutme{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  
+  flex-grow: 1;
+}
+
+.littleaboutmedescr{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  font-size: 15px;
+  color: rgba(205, 202, 202, 0.636)
+}
+
+body, html {
+  background-color: #464655; /* Ensure the body and html take full height */
+  overflow-y: auto;
+}
+
+.container {
+  background-color: #464655;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+
+  
+  
 }
